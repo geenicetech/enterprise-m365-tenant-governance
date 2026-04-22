@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates the design and implementation of **enterprise-grade Microsoft 365 tenant governance** using **least-privilege administrative access** and **role-based administrative roles configured through the Microsoft 365 Admin Center**.
+This project demonstrates the design and implementation of **enterprise-grade Microsoft 365 tenant governance** using **least-privilege administrative access** configured through the Microsoft 365 Admin Center**.
 
 The focus of this project is on reducing over-privileged access, enforcing separation of duties, and establishing a secure and auditable administration model suitable for medium-to-large organizations.
 
@@ -11,7 +11,7 @@ Many organizations operate with excessive Global Administrator privileges, incre
 
 ## Solution
 - Reduced Global Administrator access
-- Implemented break-glass emergency accounts
+- Implemented break-glass emergency account
 - Introduced least-privilege administrative access
 
 ## Technologies Used
@@ -22,11 +22,11 @@ diagrams/m365-role-governance.png
 
 ## Key Controls Implemented
 - Least privilege administration
-- Emergency access accounts
+- An emergency access account
 - Clear separation of duties
 
 ## Security Considerations
-- Break-glass accounts excluded from Conditional Access
+- Break-glass accounts exclude from Conditional Access policies that could block access
 - Strong password policy enforced
 
 ## Outcome
